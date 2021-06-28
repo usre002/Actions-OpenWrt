@@ -7,7 +7,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # 固件架构
 cat >> .config <<EOF
 CONFIG_TARGET_ipq40xx=y
-CONFIG_TARGET_ipq40xx_DEVICE_hiwifi_c526a=y
+CONFIG_TARGET_ipq40xx_DEVICE_hiwifi_c526a-128m=y
 EOF
 
 # 禁用 IPV6
